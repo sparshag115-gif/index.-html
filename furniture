@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Joynery — The Hyperlocal Furniture Ecosystem</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <nav class="navbar">
+    <a href="#customer-entry" class="brand">
+      <span class="brand-mark" aria-hidden="true"></span>
+      Joynery
+    </a>
+    <ul class="nav-links">
+      <li><a href="#customer-entry">Start a piece</a></li>
+      <li><a href="#platform-engine">How it works</a></li>
+      <li><a href="#local-execution">Your local team</a></li>
+      <li><a href="#fulfillment">Delivery &amp; install</a></li>
+    </ul>
+    <a href="#customer-entry" class="nav-cta">Get a quote</a>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+</header>
+
+<main>
+
+  <!-- TIER 1 — CUSTOMER ENTRY -->
+  <section id="customer-entry" class="tier tier-01">
+    <div class="tier-label">
+      <span class="tier-index">01</span>
+      <span class="tier-name">Customer entry</span>
+    </div>
+
+    <div class="hero-grid">
+      <div class="hero-copy">
+        <h1>Furniture built by <br>someone down the street.</h1>
+        <p class="hero-sub">
+          Sketch what you need, or describe it out loud. Joynery pairs you with a local
+          carpenter and an independent designer who work the piece from rough idea
+          to finished object — with materials sourced from your own city.
+        </p>
+        <div class="hero-actions">
+          <a href="#" class="btn btn-primary"><i class="fa-solid fa-cube"></i> View in AR / 3D</a>
+          <a href="#" class="btn btn-ghost"><i class="fa-solid fa-pencil"></i> Upload a sketch</a>
+        </div>
+        <div class="hero-meta">
+          <div class="hero-meta-item">
+            <i class="fa-solid fa-phone"></i>
+            <span>Talk it through — <strong>book a 10-min call</strong></span>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-panel" aria-hidden="true">
+        <div class="panel-frame">
+          <div class="panel-header">
+            <span class="dot"></span><span class="dot"></span><span class="dot"></span>
+            <span class="panel-title">sketch_upload.dwg</span>
+          </div>
+          <div class="panel-drop">
+            <i class="fa-solid fa-cloud-arrow-up"></i>
+            <p>Drop a sketch, a photo of a piece you like, or a napkin drawing</p>
+            <span class="panel-hint">.jpg · .png · .pdf up to 20MB</span>
+          </div>
+          <div class="panel-footer">
+            <i class="fa-solid fa-cube"></i>
+            <span>Auto-converts to a rotating 3D preview</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="tier-connector" aria-hidden="true"><span></span></div>
+
+  <!-- TIER 2 — PLATFORM ENGINE -->
+  <section id="platform-engine" class="tier tier-02">
+    <div class="tier-label">
+      <span class="tier-index">02</span>
+      <span class="tier-name">Platform engine</span>
+    </div>
+
+    <div class="engine-intro">
+      <h2>One hub, three people on the same page.</h2>
+      <p>
+        Once your idea comes in, Joynery opens a shared workspace for you, your
+        designer, and your carpenter — pulling in local material stock so pricing
+        and timelines are grounded in what's actually available nearby.
+      </p>
+    </div>
+
+    <div class="engine-grid">
+      <div class="engine-card">
+        <div class="engine-icon"><i class="fa-solid fa-comments"></i></div>
+        <h3>Tri-party chat</h3>
+        <p>
+          You, the designer, and the carpenter in one thread — decisions, revisions,
+          and approvals stay attached to the piece, not buried in email.
+        </p>
+      </div>
+
+      <div class="engine-hub" aria-hidden="true">
+        <div class="hub-core">
+          <i class="fa-solid fa-gear"></i>
+        </div>
+        <span class="hub-node hub-node-1"><i class="fa-solid fa-user"></i></span>
+        <span class="hub-node hub-node-2"><i class="fa-solid fa-compass-drafting"></i></span>
+        <span class="hub-node hub-node-3"><i class="fa-solid fa-hammer"></i></span>
+      </div>
+
+      <div class="engine-card">
+        <div class="engine-icon"><i class="fa-solid fa-layer-group"></i></div>
+        <h3>Aggregated materials</h3>
+        <p>
+          Joynery checks stock across local mills, upholsterers, and hardware
+          suppliers, so your quote reflects what's on hand this week — not a
+          national catalog average.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <div class="tier-connector" aria-hidden="true"><span></span></div>
+
+  <!-- TIER 3 — LOCAL EXECUTION -->
+  <section id="local-execution" class="tier tier-03">
+    <div class="tier-label">
+      <span class="tier-index">03</span>
+      <span class="tier-name">Local execution</span>
+    </div>
+
+    <h2 class="tier-03-heading">Two local pros, one piece of furniture.</h2>
+
+    <div class="execution-grid">
+      <div class="exec-col exec-carpenter">
+        <div class="exec-icon"><i class="fa-solid fa-hammer"></i></div>
+        <h3>The local carpenter</h3>
+        <p>
+          A vetted maker in your city builds the piece by hand, working from the
+          shared spec — and flags material or structural realities before they
+          become problems.
+        </p>
+        <ul class="exec-list">
+          <li>Builds from local, in-stock materials</li>
+          <li>Site visits when a piece needs to fit exactly</li>
+          <li>Posts build progress to the shared workspace</li>
+        </ul>
+      </div>
+
+      <div class="exec-divider" aria-hidden="true">
+        <span class="exec-divider-icon"><i class="fa-solid fa-handshake"></i></span>
+      </div>
+
+      <div class="exec-col exec-designer">
+        <div class="exec-icon"><i class="fa-solid fa-compass-drafting"></i></div>
+        <h3>The independent designer</h3>
+        <p>
+          An independent designer turns your sketch into a real spec — proportions,
+          joinery, finish — and stays in the loop as the carpenter builds it.
+        </p>
+        <ul class="exec-list">
+          <li>Translates sketches into buildable drawings</li>
+          <li>Picks finishes and hardware with you</li>
+          <li>Reviews progress photos against the spec</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <div class="tier-connector" aria-hidden="true"><span></span></div>
+
+</main>
+
+<!-- TIER 4 — FULFILLMENT -->
+<footer id="fulfillment" class="tier tier-04">
+  <div class="tier-label tier-label-light">
+    <span class="tier-index">04</span>
+    <span class="tier-name">Fulfillment</span>
+  </div>
+
+  <div class="fulfillment-grid">
+    <div class="fulfillment-col">
+      <div class="fulfillment-icon"><i class="fa-solid fa-truck"></i></div>
+      <h3>Hyperlocal delivery</h3>
+      <p>
+        Because your piece was built nearby, it travels miles, not states —
+        shorter routes, tighter delivery windows, less handling damage.
+      </p>
+    </div>
+    <div class="fulfillment-col">
+      <div class="fulfillment-icon"><i class="fa-solid fa-screwdriver-wrench"></i></div>
+      <h3>White-glove installation</h3>
+      <p>
+        Your carpenter or a trusted local partner places, levels, and finishes
+        the piece on site — it arrives ready to use, not ready to assemble.
+      </p>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <div class="footer-brand">
+      <span class="brand-mark brand-mark-light" aria-hidden="true"></span>
+      Joynery
+    </div>
+    <nav class="footer-links">
+      <a href="#customer-entry">Start a piece</a>
+      <a href="#platform-engine">How it works</a>
+      <a href="#local-execution">Your local team</a>
+    </nav>
+    <p class="footer-copy">&copy; 2026 Joynery. Built locally, everywhere.</p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
